@@ -1,4 +1,4 @@
-Setup d'inté
+integration-skeleton
 =========
 
 ## Setup
