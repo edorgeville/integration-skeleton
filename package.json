@@ -1,0 +1,22 @@
+{
+  "name": "integration-skeleton",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^0.9.1",
+    "express": "^4.4.5",
+    "gulp": "^3.8.0",
+    "gulp-bower": "0.0.6",
+    "gulp-file-include": "^0.3.1",
+    "gulp-less": "^1.2.3",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-util": "^2.2.17",
+    "run-sequence": "^0.3.6"
+  },
+  "devDependencies": {},
+  "author": "erwandorgeville.com",
+  "scripts": {
+    "start": "node ./bin/www",
+    "postinstall": "gulp build"
+  }
+}
